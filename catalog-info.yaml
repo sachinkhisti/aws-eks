@@ -4,6 +4,7 @@ metadata:
   name: dev-eks-cluster
   annotations:
     github.com/project-slug: sachinkhisti/aws-eks
+    backstage.io/techdocs-ref: 
   description: AWS EKS cluster managed by Terraform
   tags:
     - aws
