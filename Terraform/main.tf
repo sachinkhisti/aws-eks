@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     # The name of your Terraform Cloud organization.
-    organization = "TeKanAid"
+    organization = "sachin-dev-tf-cloud"
 
     # The name of the Terraform Cloud workspace to store Terraform state files in.
     workspaces {
