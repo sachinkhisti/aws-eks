@@ -14,3 +14,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: sachin khisti
+  techdocs:
+    catalogInfoUrl: https://github.com/sachinkhisti/aws-eks
