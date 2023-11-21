@@ -6,6 +6,15 @@ metadata:
     github.com/project-slug: sachinkhisti/aws-eks
     backstage.io/techdocs-ref: dir:.
   description: AWS EKS cluster managed by Terraform
+  links:
+  - url: https://confluence.wolterskluwer.io/display/ADE/%5BPOC%5D%5BADE%5D+%5BDEVSECOPS%5D+Backstage-+Catalog+module
+    title: Sachin Backstage-POC Confluence Page
+  - url: https://confluence.wolterskluwer.io/display/ADE/Automation+and+Delivery+Engineering+Home
+    title: Confluence ADE
+    icon: dashboard
+  - url: https://portal.azure.com/#@Wolterskluwer.com/resource/subscriptions/706f91de-f942-4eb3-8f34-c5d18b859b44/resourceGroups/Argocd-poc_group/providers/Microsoft.ContainerService/managedClusters/Argocd-poc/overview
+    title: WK Azure - Dev ArgoCD Kubernetes Cluster Overview
+    icon: dashboard
   tags:
     - aws
     - eks
@@ -13,6 +22,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: sachin khisti
+  owner: sachin.khisti
   techdocs:
     catalogInfoUrl: https://github.com/sachinkhisti/aws-eks
+    
