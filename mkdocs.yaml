@@ -1,6 +1,11 @@
-site_name: 'example-docs'
+site_name: 'Backstage'
+site_description: 'Main documentation for Backstage features and platform APIs'
+#repo_url: https://github.com/backstage/backstage
 
 nav:
-  - home: index.md
+  - Overview:
+      - What is Backstage?: 'overview/what-is-backstage.md'
+      - Architecture overview: 'overview/architecture-overview.md'
+      
 plugins:
   - techdocs-core
